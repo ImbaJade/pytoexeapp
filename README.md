@@ -7,6 +7,7 @@ Convert py to exe without python installed (online method)
 2. Convert uploaded .py to .exe using github action workflow
 3. Download processed .exe as .zip file
 4. Delete uploaded .py file
+5. Open Download folder and extract ExeFile.zip
 
 > Wait until status : completed, it takes a bit of time...
 
