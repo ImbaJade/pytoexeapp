@@ -9,6 +9,7 @@ Convert py to exe without python installed (online method)
 4. Delete uploaded .py file
 
 > Wait until status : completed, it takes a bit of time...
+> Don't press delete .py button before status : completed
 
 ![Capture](https://github.com/user-attachments/assets/88973b2b-3f90-45ce-8df6-be2df3b734e0)
 
