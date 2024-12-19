@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("PyToExe")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Convert py to exe with no python installed")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("UNAMED666")]
 [assembly: AssemblyProduct("PyToExe")]
-[assembly: AssemblyCopyright("Copyright ©  2024")]
+[assembly: AssemblyCopyright("Copyright ©  2024 UNAMED666")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

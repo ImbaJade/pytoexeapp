@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnUpload = new System.Windows.Forms.Button();
             this.btnCheckStatus = new System.Windows.Forms.Button();
             this.btnDownload = new System.Windows.Forms.Button();
@@ -236,6 +237,8 @@
             this.Controls.Add(this.btnCheckStatus);
             this.Controls.Add(this.btnUpload);
             this.ForeColor = System.Drawing.Color.Transparent;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;

@@ -12,7 +12,7 @@ namespace PyToExe
     {
         private const string repoOwner = "eroge69"; // Ganti dengan username GitHub Anda
         private const string repoName = "PyToExe"; // Ganti dengan nama repositori GitHub Anda
-        private const string token = "XXX"; // Ganti dengan personal access token GitHub Anda
+        private const string token = "XXXXXXXXX"; // Ganti dengan personal access token GitHub Anda
 
         private Timer statusUpdateTimer; // Timer untuk polling status
         private string currentRunId; // Simpan ID workflow yang sedang berjalan
@@ -143,7 +143,7 @@ namespace PyToExe
             {
                 txtStatus.Text = ("Build workflow started!");
 
-                await Task.Delay(3000);
+                await Task.Delay(4000);
 
                 // Get the latest workflow run ID
                 var getResponse = await client.GetAsync($"https://api.github.com/repos/{repoOwner}/{repoName}/actions/runs");
