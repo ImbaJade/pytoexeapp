@@ -12,7 +12,7 @@ namespace PyToExe
     {
         private const string repoOwner = "eroge69"; // Ganti dengan username GitHub Anda
         private const string repoName = "PyToExe"; // Ganti dengan nama repositori GitHub Anda
-        private const string token = ""; // Ganti dengan personal access token GitHub Anda
+        private const string token = "XXX"; // Ganti dengan personal access token GitHub Anda
 
         private Timer statusUpdateTimer; // Timer untuk polling status
         private string currentRunId; // Simpan ID workflow yang sedang berjalan
@@ -498,7 +498,7 @@ namespace PyToExe
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            string url = "https://github.com/eroge69/TextureUpscaler";
+            string url = "https://github.com/eroge69/PytoexeApp";
             try
             {
                 // Membuka URL di browser default
