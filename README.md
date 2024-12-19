@@ -1,5 +1,5 @@
 # PyToExe
-Convert py to exe online 
+Convert py to exe without python installed (online method) 
 
 Upload .py file to https://github.com/eroge69/PyToExe/tree/app
 
